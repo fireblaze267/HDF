@@ -1,0 +1,25 @@
+.hdf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    font-size: 3rem;
+    background-color: black;
+    color: white;
+    animation: showup ease 2s;
+}
+
+@keyframes showup{
+    to{
+        opacity: 0;
+    }from{
+        opacity: 1;
+    }
+}
