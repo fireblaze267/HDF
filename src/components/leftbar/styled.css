@@ -38,7 +38,7 @@
     margin-right: 15px;
     height: auto;
 }
-.playlist-link a{
+a.playlist-link {
     width: 90%;
 }
 a h1{
