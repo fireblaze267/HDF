@@ -19,7 +19,7 @@ function LeftBar({info,setInfo}){
                 <img src={info === true ? homeIconWhite  : homeIconBlack} alt="home icon"/>
                 <h1>Home</h1>
             </div>
-            <a href={playlistLink}><div className="option-left">
+            <a className="playlist-link" href={playlistLink}><div className="option-left">
                 <img src={MusicIcon} alt="home icon"/>
                 <h1>Playlist</h1>
             </div></a> 
