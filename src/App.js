@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Initial from "./components/initial";
 import LeftBar from "./components/leftbar";
-import './app.css'
+import './App.css'
 import Card from "./components/Card";
 import data from './services/data.json'
 import About from "./components/about";
@@ -12,7 +12,7 @@ const [info,setInfo] = useState()
 
 
 useState(()=>{
-  window.setTimeout(function(){setInitial(true)},2000)
+  window.setTimeout(function(){setInitial(true)},2000) 
 })
   return (
     <div className="main">
@@ -25,7 +25,7 @@ useState(()=>{
       <p>Here you find my personal favorites lyrics,<a href="https://github.com/fireblaze267"> But who i am?</a></p>
         <div className="content">
           { data.map((e,index)=>{
-           return <Card key={index} data={e}/> 
+            return <Card key={index} data={e}/>
           })
           }
           

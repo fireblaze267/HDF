@@ -19,10 +19,10 @@ function LeftBar({info,setInfo}){
                 <img src={info === true ? homeIconWhite  : homeIconBlack} alt="home icon"/>
                 <h1>Home</h1>
             </div>
-            <div className="option-left">
+            <a href={playlistLink}><div className="option-left">
                 <img src={MusicIcon} alt="home icon"/>
-                <a href={playlistLink}><h1>Playlist</h1></a>
-            </div>  
+                <h1>Playlist</h1>
+            </div></a> 
             <div onClick={info === true ? ()=>setInfo(false) :()=>setInfo(true) } className={info ? "option-left select" : "option-left "}>
                 <img src={info ? infoIconBlack : infoIconWhite } alt="home icon"/>
                 <h1>Info</h1>

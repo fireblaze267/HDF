@@ -9,6 +9,12 @@
     width: 20%;
     height: 300px;
     margin: 10px;
+    transition: all 0.2s;
+
+}
+.card:hover{
+    transform: translatey(-10px);
+    transition: all 0.3s;
 }
 .card h1 {
     margin: 0px;
@@ -50,7 +56,7 @@
 @media(max-width:1000px){
         .card{
             width: 80%;
-            height: 120px;
+            height: 150px;
         }
         
         label{

@@ -24,8 +24,8 @@
 }
 .circular--landscape {
     display: inline-block;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: auto;
     overflow: hidden;
     border-radius: 50%;
   }
