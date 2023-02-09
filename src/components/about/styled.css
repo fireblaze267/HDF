@@ -18,16 +18,15 @@
     box-sizing: border-box;
 }
 .circular--landscape img{ 
-    width: 100%;
-    height: auto;
-
+    width:100%; 
 }
 .circular--landscape {
-    display: inline-block;
-    width: 180px;
-    height: auto;
-    overflow: hidden;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
+    overflow: hidden;
+    display:inline-block;
+    vertical-align:middle;
   }
   .info-text{
     border-top: white 2px solid;
@@ -85,10 +84,7 @@
     .modal-about{
         width: 100%;
     }
-    .circular--landscape{
-        width: 150px;
-        height: 150px;
-    }
+   
     .info-text{
         width: 90%;
     }
